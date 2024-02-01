@@ -359,4 +359,4 @@ save and close the file
     sudo systemctl restart nginx        
 ```
 
-Add all created/modified changes into git repo to deploy to remote servers from local git directory. All wordpress files themes plugins etc can commit to git deploy to remote server. every commit changes to wordpress site deploys automatically with github actions.
+Ensure that all alterations and additions made to the WordPress files, including themes and plugins, are incorporated into the local Git repository. This facilitates seamless deployment to remote servers directly from the local Git directory. By committing changes to the Git repository, the modifications are then automatically deployed to the WordPress site through the utilization of GitHub Actions. This streamlined process ensures that each committed change triggers an automated deployment to the live WordPress site, enhancing efficiency and maintaining synchronization between the local development environment and the remote server.
